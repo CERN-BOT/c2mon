@@ -509,6 +509,9 @@
             <value>true</value>
           </property>
       </activation>
+      <properties>
+        <skipDocker>true</skipDocker>
+      </properties>
       <distributionManagement>
           <snapshotRepository>
               <id>ossrh</id>
