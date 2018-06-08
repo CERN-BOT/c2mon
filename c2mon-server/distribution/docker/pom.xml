@@ -132,7 +132,7 @@
           </property>
       </activation>
       <properties>
-        <skipDockerPush>true</skipDockerPush>
+        <skipDocker>true</skipDocker>
       </properties>
     </profile>
   </profiles>
