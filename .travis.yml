@@ -1,4 +1,7 @@
 language: java
+sudo: required
+services:
+  - docker
 jdk: openjdk8
 branches:
 - master

@@ -121,5 +121,20 @@
       </plugin>
     </plugins>
   </build>
+  
+  <profiles>
+    <profile>
+      <id>ossrh</id>
+      <activation>
+         <property>
+            <name>env.TRAVIS</name>
+            <value>true</value>
+          </property>
+      </activation>
+      <properties>
+        <skipDockerPush>true</skipDockerPush>
+      </properties>
+    </profile>
+  </profiles>
 
 </project>
